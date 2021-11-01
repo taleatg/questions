@@ -2,6 +2,8 @@
 
 [CSS](CSS/README.md)
 
+[JS](JS/README.md)
+
 [NodeJS](NODEJS/README.md)
 
 [SECURITY](SECURITY/README.md)
@@ -19,8 +21,6 @@
 [HTML](HTML.md)
 
 [HTTP](HTTP.md)
-
-[JS](JS.md)
 
 [Micro frontend](MICRO_FRONTEND.md)
 
