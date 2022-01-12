@@ -4,6 +4,8 @@
 
 [NodeJS](NODEJS/README.md)
 
+[Principles and patterns](PRINCIPLES_AND_PATTERNS/README.md)
+
 [SECURITY](SECURITY/README.md)
 
 [SOFT SKILLS](SOFT/README.md)
@@ -23,8 +25,6 @@
 [JS](JS.md)
 
 [Micro frontend](MICRO_FRONTEND.md)
-
-[Principles and patterns](PRINCIPLES_AND_PATTERNS.md)
 
 [ReactJS](REACTJS.md)
 
