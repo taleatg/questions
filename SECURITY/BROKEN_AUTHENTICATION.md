@@ -54,3 +54,10 @@ Solving:
 Digital Identity is the unique representation of a user (or another subject) as they engage in an online transaction.
 
 </details>
+
+<details>
+  <summary>What is authentication?</summary>
+
+Authentication is the process of verifying that an individual or entity is who they claim to be.
+
+</details>
