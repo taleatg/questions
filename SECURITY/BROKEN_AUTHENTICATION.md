@@ -61,3 +61,10 @@ Digital Identity is the unique representation of a user (or another subject) as 
 Authentication is the process of verifying that an individual or entity is who they claim to be.
 
 </details>
+
+<details>
+  <summary>What is session management?</summary>
+
+Session management is a process when a server maintains the state of the user authentication data. So users may continue to use the system without re-authentication.
+
+</details>
