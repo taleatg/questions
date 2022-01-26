@@ -2,6 +2,7 @@
 
 ## Links
 [OWASP: Broken Authentication](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)
+[Implement Digital Identity](https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity)
 
 ## Questions
 
