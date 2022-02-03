@@ -3,6 +3,7 @@
 ## Links
 [OWASP: Broken Authentication](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)
 [Implement Digital Identity](https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity)
+[Test Role Definitions](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions)
 
 ## Questions
 
@@ -76,5 +77,22 @@ Session management is a process when a server maintains the state of the user au
 * Password
 * Multi-factor authentication
 * Cryptographic based authentication
+
+</details>
+
+<details>
+  <summary>How do test role definitions?</summary>
+
+* Roles identification:
+
+The tester should start by identifying the application roles. It is possible to use application documentation, guidance for developers or administrators, comments. Moreover, he could fuzz roles through cookie variables, account variables, hidden directories or files, switching to well-known users.
+
+* Switching to available roles:
+
+After identifying possible attack vectors, the tester needs to test and validate that they can access the available roles.
+
+* Review roles permissions:
+
+After gaining access to the roles on the system, the tester must understand the permissions provided for each user role.
 
 </details>
