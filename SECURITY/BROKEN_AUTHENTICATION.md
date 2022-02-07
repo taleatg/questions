@@ -4,6 +4,7 @@
 [OWASP: Broken Authentication](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)
 [Implement Digital Identity](https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity)
 [Test Role Definitions](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions)
+[Test User Registration Process](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process)
 
 ## Questions
 
@@ -94,5 +95,26 @@ After identifying possible attack vectors, the tester needs to test and validate
 * Review roles permissions:
 
 After gaining access to the roles on the system, the tester must understand the permissions provided for each user role.
+
+</details>
+
+<details>
+  <summary>How test user registration process?</summary>
+
+Objectives:
+* Verify that the identity requirements for user registration flow with business and security requirements;
+* Validate the registration process.
+
+For testing, answer to following questions:
+1. Can anyone register for access?
+2. Are registrations vetted by a human prior to provisioning, or are they automatically granted if the criteria are met?
+3. Can the same person or identity register multiple times?
+4. Can users register for different roles or permissions?
+5. What proof of identity is required for registration to be successful?
+6. Are registered identities verified?
+
+For the validation of the registration process, answer to following questions:
+1. Can identity information be easily forged or faked?
+2. Can the exchange of identity information be manipulated during registration?
 
 </details>
