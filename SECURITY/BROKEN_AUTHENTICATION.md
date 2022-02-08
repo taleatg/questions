@@ -5,6 +5,7 @@
 [Implement Digital Identity](https://owasp.org/www-project-proactive-controls/v3/en/c6-digital-identity)
 [Test Role Definitions](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions)
 [Test User Registration Process](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process)
+[Test Account Provisioning Process](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process)
 
 ## Questions
 
@@ -116,5 +117,21 @@ For testing, answer to following questions:
 For the validation of the registration process, answer to following questions:
 1. Can identity information be easily forged or faked?
 2. Can the exchange of identity information be manipulated during registration?
+
+</details>
+
+<details>
+  <summary>How test account provisioning process?</summary>
+
+Objective:
+Verify which accounts may provide others and of what type.
+
+For testing, answer to following questions:
+1. Is there any verification, vetting and authorization of provisioning requests?
+2. Is there any verification, vetting and authorization of de-provisioning requests?
+3. Can an administrator provision other administrators or just users?
+4. Can an administrator or other user provision accounts with greater privileges than their own?
+5. Can an administrator or user de-provision themselves?
+6. How are the files or resources owned by the de-provisioned user-managed? Are they deleted? Is access transferred?
 
 </details>
