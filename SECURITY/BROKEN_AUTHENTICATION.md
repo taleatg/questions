@@ -135,3 +135,17 @@ For testing, answer to following questions:
 6. How are the files or resources owned by the de-provisioned user-managed? Are they deleted? Is access transferred?
 
 </details>
+
+<details>
+  <summary>How test for Account Enumeration and Guessable User Account?</summary>
+
+Objective:
+
+* review processes that pertain to user identification;
+* enumerate users where possible through response analysis.
+
+How to Test:
+
+In black-box testing, the tester knows nothing about the specific application, username, application logic, error messages on the sign-in page, or password recovery facilities. If the application is vulnerable, the tester receives a response message that reveals, directly or indirectly, some information for enumerating users.
+
+</details>
