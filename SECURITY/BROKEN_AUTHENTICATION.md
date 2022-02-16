@@ -149,3 +149,20 @@ How to Test:
 In black-box testing, the tester knows nothing about the specific application, username, application logic, error messages on the sign-in page, or password recovery facilities. If the application is vulnerable, the tester receives a response message that reveals, directly or indirectly, some information for enumerating users.
 
 </details>
+
+<details>
+  <summary>How to test for weak or unenforced username policy?</summary>
+
+Objectives:
+
+* Determine whether a consistent account name structure renders the application vulnerable to account enumeration;
+* Determine whether the application error messages permit account enumeration.
+
+How to Test:
+
+* Determine the structure of account names;
+* Evaluate the application response to valid and invalid account names;
+* Use different responses to valid and invalid account names to enumerate valid account names;
+* Use account name dictionaries to enumerate valid account names.
+
+</details>
