@@ -6,6 +6,7 @@
 [Test Role Definitions](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions)
 [Test User Registration Process](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process)
 [Test Account Provisioning Process](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process)
+[Testing for default credentials](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials)
 
 ### Questions
 
@@ -178,5 +179,19 @@ Objectives:
 How to test:
 
 The application should transmit various types of protected information in cleartext. To check if the application doesn't use HTTP instead of HTTPS.
+
+</details>
+
+<details>
+  <summary>How to test for Default Credentials?</summary>
+
+Objectives:
+
+* Determine whether the application has any user accounts with default passwords;
+* Review whether an application creates new user accounts with weak or predictable passwords.
+
+How to test:
+
+The first step to identifying default passwords is to identify the software. Try to find whether it uses default passwords, and if so, what they are.
 
 </details>
