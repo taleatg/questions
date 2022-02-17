@@ -166,3 +166,17 @@ How to Test:
 * Use account name dictionaries to enumerate valid account names.
 
 </details>
+
+<details>
+  <summary>How to test for Sensitive Information Sent via Unencrypted Channels?</summary>
+
+Objectives:
+
+* Identify sensitive information transmitted through the various channels;
+* Assess the privacy and security of the channels used.
+
+How to test:
+
+The application should transmit various types of protected information in cleartext. To check if the application doesn't use HTTP instead of HTTPS.
+
+</details>
