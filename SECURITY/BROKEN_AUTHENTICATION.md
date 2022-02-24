@@ -13,6 +13,8 @@
 
 [Testing for default credentials](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials)
 
+[Testing for Bypassing Authentication Schema](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema)
+
 ### Questions
 
 <details>
@@ -198,5 +200,21 @@ Objectives:
 How to test:
 
 The first step to identifying default passwords is to identify the software. Try to find whether it uses default passwords, and if so, what they are.
+
+</details>
+
+<details>
+  <summary>How to test for Bypassing Authentication Schema?</summary>
+
+Objectives:
+
+* Ensure that all services apply authentication where it is required.
+
+There are the following methods for testing:
+
+* Direct page request - If a web application implements access control only on the log-in page, it is possible to bypass the authentication schema;
+* Parameter modification - Another problem related to authentication design is when the application verifies a successful log-in based on fixed value parameters;
+* Session ID prediction - Many web applications manage authentication by session identifiers (session IDs). Therefore, if session ID generation is predictable, a malicious user could be able to find a valid session ID and gain unauthorized access to the application, impersonating a previously authenticated user;
+* SQL injection - SQL Injection is a widely known attack technique.
 
 </details>
