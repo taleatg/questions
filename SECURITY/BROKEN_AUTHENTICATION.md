@@ -15,6 +15,8 @@
 
 [Testing for Bypassing Authentication Schema](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema)
 
+[Testing for Vulnerable Remember Password](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password)
+
 ### Questions
 
 <details>
@@ -216,5 +218,18 @@ There are the following methods for testing:
 * Parameter modification - Another problem related to authentication design is when the application verifies a successful log-in based on fixed value parameters;
 * Session ID prediction - Many web applications manage authentication by session identifiers (session IDs). Therefore, if session ID generation is predictable, a malicious user could be able to find a valid session ID and gain unauthorized access to the application, impersonating a previously authenticated user;
 * SQL injection - SQL Injection is a widely known attack technique.
+
+</details>
+
+<details>
+  <summary>How to test for vulnerable remember password?</summary>
+
+Objectives:
+
+Check that session is secure and doesn't contain sensitive data.
+
+How to test:
+
+Because the methods provide a better user experience and allow forgetting all about their credentials, they improve the attack surface area. Look at 'Testing for Vulnerable Remember Password'
 
 </details>
